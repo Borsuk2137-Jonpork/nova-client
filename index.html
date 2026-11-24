@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nova Client</title>
+  <meta name="description" content="Nova Client – a modern Minecraft 1.21.8 client with a drag-and-drop HUD editor, shareable configs and a launcher with Modrinth mods and modpacks.">
+  <meta property="og:title" content="Nova Client">
+  <meta property="og:description" content="A modern client and launcher for Minecraft: Java Edition.">
+  <meta property="og:image" content="assets/launcher-home.png">
+  <link rel="icon" href="assets/icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#" class="logo"><img src="assets/icon.png" alt=""><span><b>N</b>OVA</span></a>
+      <nav class="links">
+        <a href="#features">Features</a>
+        <a href="#hud">HUD</a>
+        <a href="#launcher">Launcher</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#download" class="btn small">Download</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="glow g1"></div><div class="glow g2"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <span class="badge">Minecraft 1.21.8 · Fabric</span>
+        <h1>Play <span class="grad">smoother</span>.<br>Look better.</h1>
+        <p class="lead">Nova is a modern Minecraft client with a drag-and-drop HUD editor, 60+ modules,
+          shareable configs and its own launcher with mods and modpacks from Modrinth.</p>
+        <div class="cta">
+          <a class="btn big" href="https://github.com/Borsuk2137-Jonpork/nova-client/releases/download/v1.0.0/Nova-Launcher-Setup-1.0.0.exe">
+            <svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+            Download for Windows
+          </a>
+          <a class="btn ghost big" href="#features">See features</a>
+        </div>
+        <p class="small-print">Version 1.0.0 · 82 MB · Windows 10/11 · Requires a purchased copy of Minecraft: Java Edition</p>
+      </div>
+      <div class="hero-shot">
+        <img src="assets/launcher-home.png" alt="Nova Launcher home screen">
+      </div>
+    </div>
+  </section>
+
+  <section class="stats wrap">
+    <div><b>70</b><span>modules &amp; HUD elements</span></div>
+    <div><b>30</b><span>HUD elements</span></div>
+    <div><b>1 click</b><span>modpack installs</span></div>
+    <div><b>0</b><span>cheats</span></div>
+  </section>
+
+  <section id="features" class="wrap section">
+    <h2>Everything you need</h2>
+    <p class="section-lead">The features you know from the best PvP clients, in a clean dark interface.</p>
+    <div class="cards">
+      <div class="card"><div class="ic">🎯</div><h3>Zoom &amp; Free Look</h3><p>Smooth zoom with scroll-wheel control and looking around without turning your character.</p></div>
+      <div class="card"><div class="ic">✚</div><h3>Custom crosshair</h3><p>Cross, dot, circle or T-shape with your own color, thickness, gap, outline and target color.</p></div>
+      <div class="card"><div class="ic">🧱</div><h3>Block Outline</h3><p>A colored outline and fill on the block you're looking at, matched to your theme.</p></div>
+      <div class="card"><div class="ic">🔥</div><h3>Low Fire &amp; Overlays</h3><p>Lower fire, plus no pumpkin, vignette or portal overlay. A clean view.</p></div>
+      <div class="card"><div class="ic">⌨️</div><h3>Keybinds</h3><p>Bind any key to any module, choose Toggle or Hold mode, and see conflicts with Minecraft controls.</p></div>
+      <div class="card"><div class="ic">💾</div><h3>Configs</h3><p>Create, duplicate and export your settings, and share them with a single <code>NOVA1:</code> code.</p></div>
+      <div class="card"><div class="ic">⏱️</div><h3>Time Changer</h3><p>Set the time of day just for you: day, sunset or night.</p></div>
+      <div class="card"><div class="ic">🏋️</div><h3>Singleplayer training</h3><p>Training dummies, combo and reach counters and hit sounds, in your own world only.</p></div>
+      <div class="card"><div class="ic">⭐</div><h3>Favorites &amp; search</h3><p>Star modules, change the sorting and find anything instantly. Just start typing.</p></div>
+    </div>
+  </section>
+
+  <section id="hud" class="section hud-section">
+    <div class="wrap split">
+      <div>
+        <h2>A HUD editor that makes sense</h2>
+        <p class="section-lead left">Pick elements from an icon grid and they appear in the middle of the screen. Drag them anywhere,
+          resize from the corner, and set colors, font, opacity and background.</p>
+        <ul class="checks">
+          <li>FPS, CPS, ping, coordinates, biome, direction, speed, clock</li>
+          <li>Keystrokes, WASD, mouse buttons</li>
+          <li>Armor with a separate toggle for each piece, durability, item counter</li>
+          <li>Potion effects, Target HUD, Reach, Combo, Attack Cooldown</li>
+          <li>Snapping to a grid and to edges, plus saved layouts</li>
+        </ul>
+      </div>
+      <div class="hud-demo" aria-hidden="true">
+        <div class="mc-bg"></div>
+        <div class="hud-el wm"><b>N</b>ova <span>v1.0.0 · 144 fps</span></div>
+        <div class="hud-el list"><i>Toggle Sprint</i><i>Zoom</i><i>Block Outline</i><i>Low Fire</i></div>
+        <div class="hud-el info"><span>FPS</span> 144<br><span>XYZ</span> 128 64 -256<br><span>CPS</span> 9 | 4</div>
+        <div class="keys">
+          <div class="k blank"></div><div class="k on">W</div><div class="k blank"></div>
+          <div class="k">A</div><div class="k on">S</div><div class="k">D</div>
+          <div class="k wide">LMB<small>9 CPS</small></div><div class="k wide on">RMB<small>4 CPS</small></div>
+        </div>
+        <div class="hud-el target"><div class="t-name">Training Dummy <span>64.0 ❤</span></div><div class="bar"><div></div></div><small>2.8m · 7.5 DPS · 4x</small></div>
+        <div class="crosshair"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="launcher" class="wrap section">
+    <h2>Launcher included</h2>
+    <p class="section-lead">One app for versions, profiles, mods, modpacks and accounts.</p>
+    <div class="split launcher-split">
+      <img class="shot" src="assets/launcher-mods.png" alt="Nova Launcher Modrinth mod browser">
+      <div class="feature-list">
+        <div><h3>Profiles &amp; versions</h3><p>Every profile has its own Minecraft version, worlds folder and mods. Fabric and Nova install automatically.</p></div>
+        <div><h3>Mods from Modrinth</h3><p>Search, click "Install" and dependencies come along automatically. Enable or disable any mod with one switch.</p></div>
+        <div><h3>Modpacks</h3><p>Install modpacks from Modrinth or import <code>.mrpack</code> files. Every pack becomes its own profile.</p></div>
+        <div><h3>Microsoft accounts</h3><p>Sign in on Microsoft's own page (the launcher never sees your password) and switch accounts in one click.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="section download">
+    <div class="wrap download-inner">
+      <h2>Download Nova</h2>
+      <p class="section-lead">Get the launcher with everything built in, or just the mod for your own launcher.</p>
+      <div class="dl-cards">
+        <div class="dl-card primary">
+          <h3>Nova Launcher</h3>
+          <p>Windows installer with Nova Client, mods and modpacks built in.</p>
+          <a class="btn big" href="https://github.com/Borsuk2137-Jonpork/nova-client/releases/download/v1.0.0/Nova-Launcher-Setup-1.0.0.exe">Download .exe (82 MB)</a>
+          <small>Windows 10/11 · 64-bit</small>
+        </div>
+        <div class="dl-card">
+          <h3>Mod only (Fabric)</h3>
+          <p>Drop it into your <code>mods</code> folder. Requires Fabric Loader and Fabric API for 1.21.8.</p>
+          <a class="btn ghost big" href="downloads/nova-client-1.0.0.jar" download>Download .jar (320 KB)</a>
+          <small>Minecraft 1.21.8 · Java 21</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="wrap section faq">
+    <h2>FAQ</h2>
+    <details><summary>Windows says "Windows protected your PC". What do I do?</summary>
+      <p>The installer isn't signed with a paid code-signing certificate yet, so SmartScreen doesn't recognise it. Click "More info", then "Run anyway".</p></details>
+    <details><summary>Is Nova a cheat?</summary>
+      <p>No. Nova only has visual and quality-of-life features (HUD, zoom, crosshair, keybinds). Tools like training dummies only work in your own singleplayer world.</p></details>
+    <details><summary>Do I need to own Minecraft?</summary>
+      <p>Yes. The launcher signs in with a Microsoft account that owns Minecraft: Java Edition. Non-premium accounts are not supported.</p></details>
+    <details><summary>How do I install just the mod?</summary>
+      <p>Install Fabric Loader for 1.21.8, put Fabric API and <code>nova-client-1.0.0.jar</code> in your <code>.minecraft/mods</code> folder, and start the Fabric profile. Right Shift opens the GUI.</p></details>
+    <details><summary>Where are my settings stored?</summary>
+      <p>In the <code>config/nova</code> folder of your instance. You can export configs and share them with a code from inside the game.</p></details>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="logo"><img src="assets/icon.png" alt=""><span><b>N</b>OVA</span></div>
+      <p>Nova Client is not affiliated with Mojang Studios or Microsoft. Minecraft is a trademark of Mojang AB.</p>
+      <p>© <span id="year">2026</span> Nova Client</p>
+    </div>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
